@@ -10,6 +10,7 @@ import http.client
 '''
 #update requests table
 #create a database or connect to one
+#Only execute the data creation only once
 conn=sqlite3.connect('update_requests.db')
 
 #create cursor
